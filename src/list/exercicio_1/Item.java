@@ -1,4 +1,4 @@
-package list;
+package list.exercicio_1;
 
 public class Item {
     private String nome;
