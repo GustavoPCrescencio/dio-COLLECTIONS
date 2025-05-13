@@ -35,7 +35,6 @@ public class CarrinhoDeCompras {
     public void exibirItens() {
         System.out.println(carrinho);
     }
-
     public static void main(String[] args) {
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
         carrinho.adicionarItem("PS5", 4000, 2);
@@ -48,5 +47,4 @@ public class CarrinhoDeCompras {
         carrinho.exibirItens();
         System.out.println("valor do carrinho: R$" + carrinho.calcularValorTotal());
     }
-
 }
